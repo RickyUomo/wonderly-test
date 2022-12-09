@@ -8,6 +8,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" />
+        <Route path="/london" />
+        <Route path="/paris" />
+        <Route path="/rome" />
       </Routes>
     </Router>
   );
