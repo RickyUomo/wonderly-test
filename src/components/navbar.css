@@ -1,0 +1,9 @@
+.navbar {
+}
+
+.navbar-logo {
+  color: #008c98;
+  font-size: 2rem;
+  text-decoration: none;
+  justify-self: start;
+}
