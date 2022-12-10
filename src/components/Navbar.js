@@ -32,7 +32,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="rome" className="nav-link" onClick={closeMobileMenu}>
+              <Link to="/rome" className="nav-link" onClick={closeMobileMenu}>
                 Rome
               </Link>
             </li>
