@@ -9,6 +9,9 @@
   color: #fff;
   font-size: 1rem;
 }
-.button:hover {
-  background-color: #f2131a;
+
+@media (hover: hover) {
+  .button:hover {
+    background-color: #f2131a;
+  }
 }
