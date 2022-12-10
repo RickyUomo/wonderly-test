@@ -14,12 +14,9 @@ function App() {
       <div className="content">
         <Routes>
           <Route exact path="/" />
-          <Route
-            path="/london"
-            element={<Time city={"london"} time={"12:00"} />}
-          />
-          <Route path="/paris" />
-          <Route path="/rome" />
+          <Route path="/london" element={<Time city={"london"} />} />
+          <Route path="/paris" element={<Time city={"paris"} />} />
+          <Route path="/rome" element={<Time city={"rome"} />} />
         </Routes>
       </div>
     </Router>
