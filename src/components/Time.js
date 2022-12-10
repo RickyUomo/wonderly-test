@@ -3,6 +3,7 @@ import Button from "./Button";
 import "./time.css";
 import timeService from "../services/time";
 import moment from "moment/moment";
+import PropTypes from "prop-types";
 
 const Time = ({ city }) => {
   const [time, setTime] = useState("");
@@ -30,6 +31,10 @@ const Time = ({ city }) => {
       </div>
     </div>
   );
+};
+
+Time.propTypes = {
+  city: PropTypes.string.isRequired,
 };
 
 export default Time;
