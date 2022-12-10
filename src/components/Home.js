@@ -10,7 +10,7 @@ const Home = () => {
         Get live{" "}
         <Typical
           steps={["London", 1500, "Paris", 1500, "Rome", 1500]}
-          loop={3}
+          loop={Infinity}
           wrapper="b"
         />
         time
