@@ -8,10 +8,12 @@
   background-color: #242424;
   color: #fff;
   font-size: 1rem;
+  transition-duration: 0.4s;
 }
 
 @media (hover: hover) {
   .button:hover {
     background-color: #f2131a;
+    transform: scale(1.2);
   }
 }
