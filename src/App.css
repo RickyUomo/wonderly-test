@@ -10,4 +10,5 @@
   align-items: center;
   height: 92vh;
   background-color: #b7f0f4;
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
 }
