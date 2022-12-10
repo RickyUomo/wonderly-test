@@ -12,6 +12,7 @@ const Home = () => {
           steps={["London", 1500, "Paris", 1500, "Rome", 1500]}
           loop={Infinity}
           wrapper="b"
+          className="typical"
         />
         time
       </p>
