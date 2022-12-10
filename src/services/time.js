@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "http://worldtimeapi.org/api/timezone/Europe";
+const baseUrl = "https://worldtimeapi.org/api/timezone/Europe";
 
 const getTime = async (city) => {
   const time = await axios.get(`${baseUrl}/${city}`);
