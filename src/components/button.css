@@ -5,4 +5,10 @@
   border: none;
   cursor: pointer;
   white-space: nowrap;
+  background-color: #242424;
+  color: #fff;
+  font-size: 1rem;
+}
+.button:hover {
+  background-color: #f2131a;
 }
