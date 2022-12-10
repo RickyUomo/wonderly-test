@@ -1,17 +1,27 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Time from "./components/Time";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
+  // create buttons
+  // create a display time page, pass props for different time zone. add css to content class
+  // create home page
   return (
     <Router>
       <Navbar />
-      <Routes>
-        <Route path="/" />
-        <Route path="/london" />
-        <Route path="/paris" />
-        <Route path="/rome" />
-      </Routes>
+
+      <div className="content">
+        <Routes>
+          <Route exact path="/" />
+          <Route
+            path="/london"
+            element={<Time city={"london"} time={"12:00"} />}
+          />
+          <Route path="/paris" />
+          <Route path="/rome" />
+        </Routes>
+      </div>
     </Router>
   );
 }
